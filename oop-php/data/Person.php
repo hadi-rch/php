@@ -29,5 +29,8 @@
         // maka caramengaksesnya bukan Person::AUTHOR tetapi menggunakan self 
     }
 
+    function __destruct(){
+        echo "Object person $this->name is destroyed". PHP_EOL;
+    }
 
  }
