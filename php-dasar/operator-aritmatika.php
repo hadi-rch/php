@@ -17,5 +17,7 @@ var_dump($result);
 $result = 100 % 3;
 var_dump($result);
 
-
+$x = "10";
+$y = $x + 5;
+echo $y;
 
