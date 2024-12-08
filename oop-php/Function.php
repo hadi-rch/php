@@ -13,4 +13,7 @@ $joko->name = 'jokk';
 $joko->sayHello(null);
 
 
+$joko->info();
+$eko->info();
+
 

@@ -19,5 +19,12 @@
         }
     }
 
+    function info ()
+    {
+        echo "Author : " . self::AUTHOR . PHP_EOL;
+        //karena function info berada di dalam class yang sama dengan constant author 
+        // maka caramengaksesnya bukan Person::AUTHOR tetapi menggunakan self 
+    }
+
 
  }
